@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Tegar Kurniawan - Profil & Portofolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #090d16 0%, #171033 50%, #1e1145 100%);
+        }
+        .gradient-card {
+            background: linear-gradient(135deg, rgba(23, 16, 51, 0.7) 0%, rgba(49, 21, 94, 0.4) 100%);
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans selection:bg-purple-500 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex justify-between items-center">
+            <span class="font-bold tracking-wider text-lg gradient-text">TOMMY.TEGAR</span>
+            <div class="hidden md:flex gap-6 text-sm text-slate-300">
+                <a href="#tentang" class="hover:text-purple-400 transition">Tentang</a>
+                <a href="#keterampilan" class="hover:text-purple-400 transition">Keterampilan</a>
+                <a href="#hobi" class="hover:text-purple-400 transition">Hobi</a>
+                <a href="#kontak" class="hover:text-purple-400 transition">Kontak</a>
+            </div>
+            <a href="https://wa.me/6285784676652" target="_blank" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white px-4 py-2 rounded-full text-xs font-semibold shadow-lg transition">WhatsApp</a>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="gradient-bg min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20 relative overflow-hidden">
+        <!-- Efek Glow Background -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-10 left-10 w-72 h-72 bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="z-10 max-w-3xl mx-auto">
+            <div class="w-32 h-32 mx-auto mb-6 rounded-full gradient-card border-2 border-purple-500/50 shadow-2xl flex items-center justify-center text-4xl font-extrabold gradient-text">
+                TTK
+            </div>
+            <span class="px-4 py-1.5 rounded-full text-xs font-semibold bg-purple-500/10 text-purple-300 border border-purple-500/20 inline-block mb-4">
+                Profesional Jaringan & Teknisi FO
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight">Tommy Tegar Kurniawan</h1>
+            <p class="text-base md:text-xl text-slate-300 mb-8 max-w-xl mx-auto leading-relaxed">
+                Ahli dalam instalasi dan pengelolaan jaringan fiber optik yang handal, teliti, serta berkomitmen pada koneksi internet berkualitas tinggi.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#keterampilan" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-semibold px-8 py-3 rounded-full shadow-lg transition duration-300">Lihat Keahlian</a>
+                <a href="#kontak" class="bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-3 rounded-full border border-white/10 backdrop-blur-md transition duration-300">Hubungi Saya</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto px-6 py-20 space-y-24">
+
+        <!-- Tentang Saya & Info Kontak -->
+        <section id="tentang" class="grid md:grid-cols-2 gap-8 items-stretch">
+            <div class="gradient-card p-8 rounded-2xl border border-white/10 shadow-xl backdrop-blur-md flex flex-col justify-between">
+                <div>
+                    <h2 class="text-2xl font-bold mb-4 text-white flex items-center gap-2">
+                        <span class="w-3 h-3 bg-blue-500 rounded-full"></span> Tentang Saya
+                    </h2>
+                    <p class="text-slate-300 leading-relaxed mb-6">
+                        Halo! Saya adalah seorang individu yang berdedikasi tinggi di bidang teknologi infrastruktur jaringan. Berbasis di daerah Ngaglik, saya siap memberikan pelayanan terbaik seputar instalasi perkabelan optik.
+                    </p>
+                </div>
+                <div class="space-y-3 pt-4 border-t border-white/10 text-sm">
+                    <div class="flex items-center gap-3 text-slate-300">
+                        <span class="text-purple-400 font-semibold w-20">Alamat:</span>
+                        <span>Desa Ngaglik, Dusun Biluk RT 1 RW 1</span>
+                    </div>
+                    <div class="flex items-center gap-3 text-slate-300">
+                        <span class="text-purple-400 font-semibold w-20">Email:</span>
+                        <a href="mailto:tommykurnia256@gmail.com" class="text-blue-400 hover:underline">tommykurnia256@gmail.com</a>
+                    </div>
+                    <div class="flex items-center gap-3 text-slate-300">
+                        <span class="text-purple-400 font-semibold w-20">No. HP:</span>
+                        <a href="tel:085784676652" class="text-blue-400 hover:underline">0857-8467-6652</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hobi -->
+            <div id="hobi" class="gradient-card p-8 rounded-2xl border border-white/10 shadow-xl backdrop-blur-md flex flex-col justify-between">
+                <div>
+                    <h2 class="text-2xl font-bold mb-4 text-white flex items-center gap-2">
+                        <span class="w-3 h-3 bg-purple-500 rounded-full"></span> Hobi & Aktivitas
+                    </h2>
+                    <p class="text-slate-300 leading-relaxed mb-6">
+                        Menjaga keseimbangan antara pekerjaan fisik/teknis dan kesehatan jasmani melalui olahraga tim yang melatih kekompakan.
+                    </p>
+                </div>
+                <div class="bg-black/40 p-5 rounded-xl border border-white/5 flex items-center gap-4">
+                    <span class="text-4xl p-3 bg-purple-600/20 rounded-lg border border-purple-500/30">🏐</span>
+                    <div>
+                        <h3 class="font-bold text-white text-lg">Bola Voli</h3>
+                        <p class="text-sm text-slate-400">Aktif bermain bola voli untuk melatih strategi, ketangkasan, dan kerja sama tim yang solid.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeri Keterampilan (Skill Gallery) -->
+        <section id="keterampilan">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-3 gradient-text">Galeri Keterampilan</h2>
+                <p class="text-slate-400 max-w-lg mx-auto text-sm md:text-base">Keahlian profesional dan teknis yang dikuasai dalam bidang jaringan komputer dan telekomunikasi.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Skill 1 -->
+                <div class="gradient-card p-6 rounded-2xl border border-white/10 shadow-xl backdrop-blur-md group hover:border-purple-500/40 transition">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="p-3 bg-blue-600/20 text-blue-400 rounded-xl text-2xl border border-blue-500/30">
+                            🌐
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Instalasi Kabel Fiber Optik (FO)</h3>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        Penarikan kabel udara maupun jalur bawah tanah dengan standar keamanan dan kerapian yang tinggi untuk meminimalisir gangguan redaman.
+                    </p>
+                    <div class="flex flex-wrap gap-2 text-xs">
+                        <span class="px-3 py-1 bg-blue-500/10 text-blue-300 rounded-full border border-blue-500/20">Pulling Cable</span>
+                        <span class="px-3 py-1 bg-purple-500/10 text-purple-300 rounded-full border border-purple-500/20">Routing</span>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="gradient-card p-6 rounded-2xl border border-white/10 shadow-xl backdrop-blur-md group hover:border-purple-500/40 transition">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="p-3 bg-purple-600/20 text-purple-400 rounded-xl text-2xl border border-purple-500/30">
+                            ⚡
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Penyambungan & Splicing</h3>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        Pengoperasian mesin fusion splicer untuk menyambung inti fiber optik dengan presisi tinggi serta memastikan nilai loss redaman dalam batas normal.
+                    </p>
+                    <div class="flex flex-wrap gap-2 text-xs">
+                        <span class="px-3 py-1 bg-purple-500/10 text-purple-300 rounded-full border border-purple-500/20">Fusion Splicer</span>
+                        <span class="px-3 py-1 bg-blue-500/10 text-blue-300 rounded-full border border-blue-500/20">Cleaving</span>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="gradient-card p-6 rounded-2xl border border-white/10 shadow-xl backdrop-blur-md group hover:border-purple-500/40 transition">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="p-3 bg-indigo-600/20 text-indigo-400 rounded-xl text-2xl border border-indigo-500/30">
+                            🔍
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Testing & Troubleshooting (OTDR)</h3>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        Menganalisis kualitas jalur kabel menggunakan alat ukur OTDR (Optical Time-Domain Reflectometer) untuk mendeteksi letak putus atau gangguan jaringan.
+                    </p>
+                    <div class="flex flex-wrap gap-2 text-xs">
+                        <span class="px-3 py-1 bg-indigo-500/10 text-indigo-300 rounded-full border border-indigo-500/20">OTDR Test</span>
+                        <span class="px-3 py-1 bg-purple-500/10 text-purple-300 rounded-full border border-purple-500/20">Troubleshooting</span>
+                    </div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="gradient-card p-6 rounded-2xl border border-white/10 shadow-xl backdrop-blur-md group hover:border-purple-500/40 transition">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="p-3 bg-blue-600/20 text-blue-400 rounded-xl text-2xl border border-blue-500/30">
+                            📦
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Manajemen ODC / ODP</h3>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        Penataan pigtail, adaptor, dan manajemen kabel di dalam perangkat distribusi optik (ODC/ODP/Roset) agar rapi, aman, dan mudah dalam pemeliharaan.
+                    </p>
+                    <div class="flex flex-wrap gap-2 text-xs">
+                        <span class="px-3 py-1 bg-blue-500/10 text-blue-300 rounded-full border border-blue-500/20">Termination</span>
+                        <span class="px-3 py-1 bg-indigo-500/10 text-indigo-300 rounded-full border border-indigo-500/20">Patch Core</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontak / Call to Action Interaktif -->
+        <section id="kontak" class="gradient-card p-10 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-md text-center">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">Hubungi Saya</h2>
+            <p class="text-slate-300 text-sm md:text-base mb-8 max-w-md mx-auto">
+                Ada pertanyaan, kolaborasi proyek jaringan, atau keperluan lainnya? Silakan kirim pesan langsung via WhatsApp atau Email.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://wa.me/6285784676652?text=Halo%20Tommy,%20saya%20melihat%20profil%20website%20Anda%20dan%20ingin%20berdiskusi." target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white font-medium px-8 py-3 rounded-full shadow-lg transition duration-300 flex items-center gap-2">
+                    <span>💬</span> Chat WhatsApp (0857-8467-6652)
+                </a>
+                <a href="mailto:tommykurnia256@gmail.com" class="bg-blue-600 hover:bg-blue-500 text-white font-medium px-8 py-3 rounded-full shadow-lg transition duration-300 flex items-center gap-2">
+                    <span>✉️</span> Kirim Email
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 text-xs text-slate-500 border-t border-slate-900 mt-16">
+        <p>&copy; 2026 Tommy Tegar Kurniawan. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
